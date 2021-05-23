@@ -42,7 +42,7 @@ public class BoardGameApplication extends Application {
 
 
     /**
-     * the scene generated
+     * the first scene generated
      * @param stage
      * @throws Exception
      */

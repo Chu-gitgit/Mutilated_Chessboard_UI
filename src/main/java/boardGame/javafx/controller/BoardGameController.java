@@ -64,7 +64,10 @@ public class BoardGameController {
     }
 
 
-
+    /**
+     * initialize the board,create every square in the each cell
+     * initial step as 0, and get the current time
+     */
     @FXML
     private void initialize() {
         for (var i = 0; i < board.getRowCount(); i++) {

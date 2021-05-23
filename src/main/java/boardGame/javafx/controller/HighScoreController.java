@@ -52,7 +52,9 @@ public class HighScoreController {
 
     /**
      *  the scene of high score recording
-     *  get top 5 result
+     *  which record score player's information, the player name, steps to win
+     *  and date of the player to play
+     *  and get top 5 player's information from highScoreList
      *
      */
     @FXML
