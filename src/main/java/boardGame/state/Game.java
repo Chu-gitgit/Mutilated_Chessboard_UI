@@ -59,8 +59,8 @@ public class Game {
 
 
     /**
-     * when there is no space horizontally between two pieces, player1 win
-     * when there is no space vertically between two pieces, player2 win
+     *  make sure there is space for opposite player, if not , current player win
+     *
      *
      * @param player
      * @return

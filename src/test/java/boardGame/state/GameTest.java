@@ -16,8 +16,6 @@ class GameTest {
         assertTrue(board[x][y] == 0 && board[x][y + 1] == 0);
 
         assertFalse( !(board[x][y] == 0 && board[x][y + 1] == 0));
-
-
     }
 
     public static int[][] board2 = new int[8][8];

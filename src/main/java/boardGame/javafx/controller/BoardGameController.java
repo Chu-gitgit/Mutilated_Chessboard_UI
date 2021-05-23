@@ -127,7 +127,7 @@ public class BoardGameController {
 
     /**
      * when click the mouse, the console showing the position of each square.
-     * even number of step, the coin set color with Blue, else set color in Red
+     * odd number of step, the coin set color with Blue, else set color in Red
      * when there is space for next player, showing continue.
      * else
      *       showing the current player is win!
