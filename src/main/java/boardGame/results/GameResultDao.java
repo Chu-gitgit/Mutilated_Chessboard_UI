@@ -15,16 +15,16 @@ public class GameResultDao extends GenericJpaDao<boardGame.results.GameResult> {
     }
 
     /**
-     * Returns the list of {@code n} best results with respect to the time
+     * Returns the list of {@code n} best results with respect to the steps
      * spent for solving the puzzle.
      *
      * @param n the maximum number of results to be returned
-     * @return the list of {@code n} best results with respect to the time
+     * @return the list of {@code n} best results with respect to the steps(minimum)
      * spent for solving the puzzle
      */
     @Transactional
     public List<boardGame.results.GameResult> findBest(int n) {
-        return entityManager.createQuery("SELECT r FROM GameResult r WHERE r.solved = true ORDER BY r.duration ASC, r.created DESC", boardGame.results.GameResult.class)
+        return entityManager.createQuery("SELECT r FROM GameResult r WHERE r.solved = true ORDER BY r.steps ASC, r.created DESC", boardGame.results.GameResult.class)
                 .setMaxResults(n)
                 .getResultList();
     }
