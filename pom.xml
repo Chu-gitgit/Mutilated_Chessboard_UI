@@ -9,7 +9,8 @@
     <description>Puzzle game implemented in JavaFX based on the Model-View-Controller (MVC) architectural pattern.</description>
     <developers>
         <developer>
-            <name>YS G</name>
+            <name>Chu Siyuan</name>
+            <email>chotofu7@gmail.com</email>
         </developer>
     </developers>
     <properties>
@@ -235,23 +236,6 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
                 <version>${surefire.version}</version>
             </plugin>
-
-<!--            <plugin>-->
-<!--                <groupId>org.codehaus.mojo</groupId>-->
-<!--                <artifactId>exec-maven-plugin</artifactId>-->
-<!--                <version>1.6.0</version>-->
-<!--&lt;!&ndash;                <executions>&ndash;&gt;-->
-<!--&lt;!&ndash;                    <execution>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <goals>&ndash;&gt;-->
-<!--&lt;!&ndash;                            <goal>java</goal>&ndash;&gt;-->
-<!--&lt;!&ndash;                        </goals>&ndash;&gt;-->
-<!--&lt;!&ndash;                    </execution>&ndash;&gt;-->
-<!--&lt;!&ndash;                </executions>&ndash;&gt;-->
-<!--                <configuration>-->
-<!--                    <mainClass>${exec.mainClass}</mainClass>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
-
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
