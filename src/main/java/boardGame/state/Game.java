@@ -10,6 +10,7 @@ public class Game {
     /**
      * player 1 is even starting from 0, then adding its position and add one right of it
      * player 2 is odd starting from 1, then adding its position and add one down of it
+     * then the coordinate mark as the player number
      * @param x x coordinate
      * @param y y coordinate
      * @param player
