@@ -4,8 +4,9 @@ import com.google.inject.AbstractModule;
 import com.google.inject.persist.jpa.JpaPersistModule;
 
 
-
-
+/**
+ * configure jpaUnit,biding with it
+ */
 public class PersistenceModule extends AbstractModule {
     private final String jpaUnit;
 

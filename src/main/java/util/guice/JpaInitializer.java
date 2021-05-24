@@ -5,6 +5,10 @@ import com.google.inject.persist.PersistService;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
+
+/**
+ * JPA  initialize
+ */
 @Singleton
 public class JpaInitializer {
 
